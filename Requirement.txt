@@ -1,4 +1,4 @@
-Streamlit    1.2.0 
-pytesseract  0.3.8 
-opencv-python  4.5.4.60
-Numpy     1.21.2 
+streamlit 
+pytesseract
+numpy
+opencv-contrib-python-headless==4.4.0.46
