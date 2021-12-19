@@ -21,4 +21,4 @@ if uploaded_file is not None: #only if file is uploaded it will show, else no er
         if st.button('PREDICT'):    #creates one button called predict
                 st.write("Result...")   #prints result 
                 extractedInformation = pytesseract.image_to_string(img)   #pytesseract converts img to text and prints
-                st.title(extractedInformation)
+                st.title(extractedInformation) # Gives first line of text in image as title (big bold font)
