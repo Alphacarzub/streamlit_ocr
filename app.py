@@ -5,7 +5,7 @@ import streamlit as st
 import cv2
 import pytesseract
 from PIL import Image   #python imaging library, to open image, streamlit doesn't support cv2 directly to display
-pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
+pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract' # Make this change after the configuring the var in heroku settings.
 st.set_option('deprecation.showfileUploaderEncoding', False)  #to warning ignore 
 st.title("OCR - Optical Character Recognition")  #print title and text
 st.text("Upload the Image")
